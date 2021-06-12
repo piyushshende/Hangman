@@ -72,19 +72,6 @@ function showBtns() {
     }
 }
 
-// function endBtn() {
-//     const hpBtns = document.querySelectorAll('.endbtn button');
-//     console.log("There are", hpBtns.length, "buttons");
-//     for (var btn of hpBtns) {
-//         btn.addEventListener('click', function(e) {
-//             if (e.target.innerText == "Hint") {
-//                 const content = document.getElementById("clue");
-//                 content.innerHTML = data[choice]["Hint"];
-//             }
-
-//         });
-//     }
-// }
 
 function getRandomNumber() {
     return Math.floor(Math.random() * 8);
@@ -202,5 +189,4 @@ buttons();
 showBtns();
 showLives(cnt);
 ShowBlanks();
-// endBtn();
 graphic(cnt);
