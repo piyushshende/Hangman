@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c1d72e;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.answer,
+#id,
+.container {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.answer p {
+    font-size: 30px;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #c1d72e;
+}
+
+.buttons {
+    text-align: start;
+    margin-left: 175px;
+    margin-right: 160px;
+}
+
+button:hover {
+    color: white;
+    background-color: #c1d72e;
+    border: 0.5px solid white;
+}
+
+canvas {
+    border: 1px solid white;
+    width: 350px;
+    height: 200px;
+    color: white;
+}
+
+.endbtn button {
+    width: 200px;
+    height: 60px;
+    background-color: #c1d72e;
+    border: 1px solid white;
+    color: white;
+}
+
+.endbtn button:hover {
+    background-color: white;
+    color: #c1d72e;
+}
+
+#blanks {
+    margin-top: 20px;
+    letter-spacing: 10px;
+    font-size: 50px;
+}

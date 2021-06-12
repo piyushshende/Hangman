@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>HANGMAN</h1>
+    <h2>VANILLA JAVASCRIPT HANGMAN GAME</h2>
+    <p>Use the alphabet below to guess the word, or click hint to get clue</p>
+    <div class="buttons" id="buttons"></div>
+    <div class="answer">
+        <p id="description"></p>
+        <div id="blanks">
+
+        </div>
+
+        <div class="container">
+            <p id="lives"></p>
+            <canvas id="stickman">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+            <p id="clue"></p>
+        </div>
+        <script src="app.js"></script>
+        <div class="endbtn">
+            <button>Hint</button>
+            <button>Play again</button>
+        </div>
+</body>
+
+</html>
