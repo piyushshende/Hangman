@@ -50,6 +50,7 @@ var buttons = function() {
 
     for (var i = 0; i < alph.length; i++) {
         var x = document.createElement("button");
+        x.className = "block";
         x.innerHTML = alph[i];
         myButtons.appendChild(x);
     }
@@ -71,7 +72,6 @@ function showBtns() {
         });
     }
 }
-
 
 function getRandomNumber() {
     return Math.floor(Math.random() * 8);
