@@ -20,24 +20,24 @@ body {
 
 h1 {
     margin-top: 50px;
-    font-size: 100px;
+    font-size: 7vw;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 3vw;
 }
 
 p {
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 2.5vw;
 }
 
 .answer p {
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 button {
-    width: 50px;
+    /* width: 50px; */
     height: 40px;
     border-radius: 3px;
     border: none;
@@ -51,6 +51,7 @@ button {
     text-align: start;
     margin-left: 175px;
     margin-right: 160px;
+    max-width: 78%;
 }
 
 button:hover {
@@ -64,6 +65,7 @@ canvas {
     width: 350px;
     height: 200px;
     color: white;
+    max-width: 50%;
 }
 
 .endbtn button {
@@ -82,5 +84,14 @@ canvas {
 #blanks {
     margin-top: 20px;
     letter-spacing: 10px;
-    font-size: 50px;
+    font-size: 3vw;
+}
+
+.block {
+    max-width: 5%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 }
